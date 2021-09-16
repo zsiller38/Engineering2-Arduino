@@ -81,7 +81,7 @@ void loop() {
 ```
 #### Wiring Diagram
 <img src="![Screenshot (12)](https://user-images.githubusercontent.com/71402927/133669477-597e0f97-e4b2-4d71-98e0-386e3469904e.png)
-" alt="ButtonBlink" style="width:500px;">
+" alt="Screenshot (12)" style="width:500px;">
 
 #### Reflection
 >I thought this project was good.

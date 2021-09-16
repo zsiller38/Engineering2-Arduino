@@ -4,7 +4,9 @@
 #### Goal
 >Make an led fade from off to on and back again using analog write.
 #### Code
-```int led = 9;
+```C++
+/*
+int led = 9;
 int brightness = 0;
 int fadeAmount = 5;
 

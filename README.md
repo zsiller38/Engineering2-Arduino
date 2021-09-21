@@ -80,7 +80,7 @@ void loop() {
 
 ```
 #### Wiring Diagram
-<img src="(https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/ButtonCounter.png)" alt="ButtonCounter" style="width:500px;">
+<img src="https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/ButtonCounter.png?raw=true" alt="ButtonCounter" style="width:500px;">
 
 #### Reflection
 >I thought this project was good.

@@ -27,7 +27,7 @@ void loop() {
 }
 ```
 #### Wiring Diagram
-<img src="https://user-images.githubusercontent.com/71402927/133321916-7e90c5ee-e1fc-4543-a245-887f7ec27b36.png" alt="ArduinoFade" style="width:500px;">
+<img src="https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/ArduinoPhade.png?raw=true" alt="ArduinoFade" style="width:500px;">
 
 #### Reflection
 >I thought this project was good.

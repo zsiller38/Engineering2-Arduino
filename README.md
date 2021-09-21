@@ -80,8 +80,39 @@ void loop() {
 
 ```
 #### Wiring Diagram
-<img src="![Screenshot (12)](https://user-images.githubusercontent.com/71402927/133669477-597e0f97-e4b2-4d71-98e0-386e3469904e.png)
-" alt="Screenshot (12)" style="width:500px;">
+<img src="![ButtonCounter.png](https://user-images.githubusercontent.com/71402927/133669477-597e0f97-e4b2-4d71-98e0-386e3469904e.png)
+" alt="ButtonCounter" style="width:500px;">
 
 #### Reflection
 >I thought this project was good.
+
+### Potentiometer
+#### Goal
+>Use a Potentiometer to manually ajust the brightness of an LED. 
+#### Code
+```C++
+
+const int analog_ip = A0;
+const int LED = 5;
+const int Servo = 10
+int inputVal = 0;
+int brightness = 0;
+
+void setup() {
+  pinMode(LED, OUTPUT);
+  Serial.begin(9600);
+  
+}
+
+void loop() {
+  inputVal = analogRead(analog_ip);
+  Serial.println(inputVal);
+  brightness = map(inputVal,0,1023,255,0);
+  analogWrite(LED, brightness);
+  delay(100);
+}
+
+```
+#### Wiring Diagram
+
+#### Reflection

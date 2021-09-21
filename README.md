@@ -113,5 +113,6 @@ void loop() {
 
 ```
 #### Wiring Diagram
+<img src="https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/Potentiometer.png?raw=true" alt="Potentiometer" style="width:500px;">
 
 #### Reflection

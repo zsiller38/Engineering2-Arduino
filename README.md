@@ -116,3 +116,38 @@ void loop() {
 <img src="https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/Potentiometer.png?raw=true" alt="Potentiometer" style="width:500px;">
 
 #### Reflection
+
+### Photoresitor
+#### Goal
+#### Code
+```C++
+int light = 0; // store the current light value
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  pinMode(8, OUTPUT);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  light = analogRead(A0);
+  Serial.println(light);
+
+  if (light > 600) {
+    Serial.println("Light");
+    digitalWrite(8, LOW);
+    delay(500);
+  }
+  else {
+    Serial.println("Dark");
+    digitalWrite(8, HIGH);
+
+  }
+  delay(1000);
+}
+
+```
+#### Wiring
+#### Reflection

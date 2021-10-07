@@ -83,7 +83,7 @@ void loop() {
 <img src="https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/ButtonCounter.png?raw=true" alt="ButtonCounter" style="width:500px;">
 
 #### Reflection
->I thought this project was good.
+>The project was interesting because we intoduced some new elements like analog write. It was very simaler to the counter led we did last year, so it was not that hard. 
 
 ### Potentiometer
 #### Goal

@@ -6,6 +6,8 @@
 
 [Potentiometer](https://github.com/zsiller38/Engineering2-Arduino#potentiometer)
 
+[Photoresistor](https://github.com/zsiller38/Engineering2-Arduino/blob/main/README.md#photoresitor)
+
 ### LED Fade
 #### Goal
 >Make an led fade from off to on and back again using analog write.
@@ -123,7 +125,7 @@ void loop() {
 
 #### Reflection
 
-### Photoresitor
+### Photoresistor
 #### Goal
 #### Code
 ```C++

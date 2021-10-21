@@ -4,6 +4,8 @@
 
 [Button Counter](https://github.com/zsiller38/Engineering2-Arduino/blob/main/README.md#button-with-counter)
 
+[Potentiometer](https://github.com/zsiller38/Engineering2-Arduino#potentiometer)
+
 ### LED Fade
 #### Goal
 >Make an led fade from off to on and back again using analog write.

@@ -158,6 +158,6 @@ void loop() {
 
 ```
 #### Wiring
-![photoresistor](https://user-images.githubusercontent.com/71402927/138344088-56e3a8ef-92a5-4b82-a249-19817e1891a0.png)| width=500)
+![photoresistor](https://user-images.githubusercontent.com/71402927/138344088-56e3a8ef-92a5-4b82-a249-19817e1891a0.png | width=500)
 
 #### Reflection

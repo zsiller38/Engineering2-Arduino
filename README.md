@@ -1,6 +1,6 @@
 # Engineering 2 Arduino
 ## Arduino Revisited
-### LED Phade
+### LED Fade
 #### Goal
 >Make an led fade from off to on and back again using analog write.
 #### Code
@@ -30,7 +30,7 @@ void loop() {
 <img src="https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/ArduinoPhade.png?raw=true" alt="ArduinoFade" style="width:500px;">
 
 #### Reflection
->I thought this project was good.
+>The LED fade project was very easy and very short. Using analog write and then a fade amount to control how quickly the led will fade from on to off was quite enjoyable. It was avery easy project but a fun build on to the led project we started with in engineering 1. 
 
 ### Button with Counter
 #### Goal
@@ -83,7 +83,7 @@ void loop() {
 <img src="https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/ButtonCounter.png?raw=true" alt="ButtonCounter" style="width:500px;">
 
 #### Reflection
->The project was interesting because we intoduced some new elements like analog write. It was very simaler to the counter led we did last year, so it was not that hard. 
+>The project was interesting because we intoduced some new elements like analog write. It was very simaler to the counter led we did last year, so it was not that hard. I did have some trouble with getting the led to stop anfter the correct number of blink, but by changing the counter starting value I eventually got it. 
 
 ### Potentiometer
 #### Goal

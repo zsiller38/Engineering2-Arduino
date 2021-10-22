@@ -124,9 +124,11 @@ void loop() {
 <img src="https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/Potentiometer.png?raw=true" alt="Potentiometer" style="width:500px;">
 
 #### Reflection
+>I liked the potentiometer project. I was something I had never done before and I enjoyed using the serial monitor to print the brightness values, and see how they changed as I twisted the potentiometer. The code itself introduced some new ideas like using map to convert the range of the imput value to a brightness level. 
 
 ### Photoresistor
 #### Goal
+>Use photoresistor to make an led turn on and off depending on the light value.
 #### Code
 ```C++
 int light = 0; // store the current light value
@@ -162,3 +164,4 @@ void loop() {
 <img src="https://user-images.githubusercontent.com/71402927/138344088-56e3a8ef-92a5-4b82-a249-19817e1891a0.png" alt="Photoresistor" style="width:500px;">
 
 #### Reflection
+>Once again this was a really fun project to look a the serial monitor on as the light value changed when you put your hand over the photoresistor. using the photoresitor to track the light value and then using if statement to tell the arduino to turn the led on or off was fun but not to hard. 

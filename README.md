@@ -6,7 +6,7 @@
 
 [Potentiometer](https://github.com/zsiller38/Engineering2-Arduino#potentiometer)
 
-[Photoresistor](https://github.com/zsiller38/Engineering2-Arduino/blob/main/README.md#photoresitor)
+[Photoresistor]()
 
 ### LED Fade
 #### Goal

@@ -34,6 +34,7 @@ void loop() {
   delay(30);
 }
 ```
+[Led fade code link](https://create.arduino.cc/editor/zsiller38/b40ef046-296b-45ba-86f6-bbdcb434c180)
 #### Wiring Diagram
 <img src="https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/ArduinoPhade.png?raw=true" alt="ArduinoFade" style="width:500px;">
 
@@ -87,6 +88,7 @@ void loop() {
 }
 
 ```
+[Led button code link](https://create.arduino.cc/editor/zsiller38/3d4ac3cd-3ba6-4903-8081-033cfeda9844)
 #### Wiring Diagram
 <img src="https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/ButtonCounter.png?raw=true" alt="ButtonCounter" style="width:500px;">
 
@@ -120,6 +122,7 @@ void loop() {
 }
 
 ```
+[Potentiometer code link(https://create.arduino.cc/editor/zsiller38/09d12ddb-0646-4a83-91fe-912f266f885b)
 #### Wiring Diagram
 <img src="https://github.com/zsiller38/Engineering2-Arduino/blob/main/images/Potentiometer.png?raw=true" alt="Potentiometer" style="width:500px;">
 
@@ -159,6 +162,7 @@ void loop() {
 }
 
 ```
+[Photoresistor code link](https://create.arduino.cc/editor/zsiller38/c16c32f6-674d-4e8f-a83f-eee4dfbc34a6)
 #### Wiring
 
 <img src="https://user-images.githubusercontent.com/71402927/138344088-56e3a8ef-92a5-4b82-a249-19817e1891a0.png" alt="Photoresistor" style="width:500px;">

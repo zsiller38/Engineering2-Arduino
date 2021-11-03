@@ -146,31 +146,35 @@ void loop() {
 
 #### Code
 ```C++
-int light = 0; // store the current light value
+// Zachary Siller
+// Control LED using Photoresistor
+// Use a photoresitor to turn and LED off if light level is high and off if light level is low. 
+
+
+int light = 0; // store the current "light" value
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
   pinMode(8, OUTPUT);
+
 }
+
 void loop() {
-  // put your main code here, to run repeatedly:
-  light = analogRead(A0);
+  light = analogRead(A0);// Reads "light" level from photoresistor and prints it. 
   Serial.println(light);
 
   if (light > 600) {
-    Serial.println("Light");
+    Serial.println("Light");//If the "light" level is greater then 600 turn the "light" off and print "light". 
     digitalWrite(8, LOW);
     delay(500);
   }
   else {
-    Serial.println("Dark");
+    Serial.println("Dark");// If "light" level less that 600 turn on "light" and print "dark". 
     digitalWrite(8, HIGH);
 
   }
   delay(1000);
 }
-
 ```
 [Photoresistor code link](https://create.arduino.cc/editor/zsiller38/c16c32f6-674d-4e8f-a83f-eee4dfbc34a6)
 

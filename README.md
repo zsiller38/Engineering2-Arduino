@@ -110,9 +110,15 @@ void loop() {
 #### Code
 ```C++
 
+// Zachary Siller
+// Control LED using a Potentiometer
+// Use a potentiometer to change brightness of LED by turning potentiometer. 
+
+
+
 const int analog_ip = A0;
 const int LED = 5;
-const int Servo = 10
+const int Servo = 10;
 int inputVal = 0;
 int brightness = 0;
 
@@ -123,10 +129,11 @@ void setup() {
 }
 
 void loop() {
-  inputVal = analogRead(analog_ip);
-  Serial.println(inputVal);
-  brightness = map(inputVal,0,1023,255,0);
-  analogWrite(LED, brightness);
+  inputVal = analogRead(analog_ip); // Reads potentiometer pin and says "inputVal" is equal to whatever it reads.
+  Serial.println(inputVal); // Prints the "inputVal"
+  brightness = map(inputVal,0,1023,255,0); // Potentiometer gives value 0-1023. Map turns that number into a number between 0-255. This becomes our LED brightness level. 
+  
+  analogWrite(LED, brightness); // Tells led what brightness to change to.
   delay(100);
 }
 

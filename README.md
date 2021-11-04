@@ -17,10 +17,14 @@
 #### Code
 ```C++
 
+// Zachary Siller
+// Button Counter LED
+// Press a button to make an LED start blinking. The LED will blink a maximum of ten times before turning off.
+
 int ledPin = 2;
 int buttonPin = 13;
 int buttonState = LOW;
-int counter = 1;
+int counter = 1; 
 
 void setup() {
   Serial.begin(9600);
@@ -31,31 +35,32 @@ void setup() {
 
 
 void loop() {
-  buttonState = digitalRead(buttonPin);
+  buttonState = digitalRead(buttonPin);//If button is pressed continue to the other if statements. 
   Serial.print(buttonState);
   Serial.print("\t");
   if (buttonState == HIGH) {
 
     if (counter > 0 && counter < 11) {
-      counter = counter + 1;
-      Serial.println(counter);
+      counter = counter + 1; //If counter is greater than 1 and less than 11, print the counter value.
+      Serial.println(counter);//Add 1 to the counter value, and turn LED on and then off
       digitalWrite(2, HIGH);
       delay(250);
       digitalWrite(2, LOW);
       delay(250);
     }
-    else if (counter == 10) {
+    else if (counter == 10) {// If counter value equals 10, print done and turn LED off. 
       Serial.println("Done!");
       digitalWrite(buttonState, LOW);
     }
     else {
       
-      digitalWrite(ledPin, LOW);
+      digitalWrite(ledPin, LOW);// If neither of the pervious 2 apply turn LED off and print off. 
       Serial.println("Off!");
      
     }
   }
 }
+
 
 ```
 [Led button code link](https://create.arduino.cc/editor/zsiller38/3d4ac3cd-3ba6-4903-8081-033cfeda9844)

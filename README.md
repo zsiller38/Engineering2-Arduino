@@ -73,10 +73,14 @@ void loop() {
 
 #### Code
 ```C++
+// Zachary Siller
+// LED fade from bright to dark.
+// Use a fade amount to adjust a brightness level and make an LED change brightness levels.
+
 
 int led = 9;
 int brightness = 0;
-int fadeAmount = 5;
+int fadeAmount = 5; //amount light value will increase or decrease by.
 
 void setup() {
   pinMode(led, OUTPUT);
@@ -85,14 +89,15 @@ void setup() {
 
 void loop() {
 
-  analogWrite(led, brightness);
-  brightness = brightness + fadeAmount;
+  analogWrite(led, brightness); //Tells LED to shine as bright as the brightness level.
+  brightness = brightness + fadeAmount; //Adds fadeAmount to current brightnesslevel
 
   if (brightness <= 0 || brightness >= 255) {
-    fadeAmount = -fadeAmount;
+    fadeAmount = -fadeAmount; //Allows for LED to get dimmer and decrease in light level.
   }
   delay(30);
 }
+
 ```
 [Led fade code link](https://create.arduino.cc/editor/zsiller38/b40ef046-296b-45ba-86f6-bbdcb434c180)
 
